@@ -1,0 +1,10 @@
+input: C:/knowledge-git/knowledge/components/cms/gks-cms/generated/swagger-ui/swagger.json 
+output: D:\work\!cuts\pubcms.json
+replace:
+- sample: "${base.url}"
+  replacement: "api"
+methods:
+- get:/${base.url}/v2/kbs/{kbId}/langs/{lang}/categs
+- patch:/${base.url}/v2/kbs/{kbId}/langs/{lang}/docs
+- post:/${base.url}/v2/kbs
+- post,put:/${base.url}/v2/namedentities

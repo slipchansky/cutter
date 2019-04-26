@@ -1,0 +1,1 @@
+@java -jar D:\gh\cutter.jar %1 %2
